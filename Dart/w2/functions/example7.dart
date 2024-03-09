@@ -2,6 +2,7 @@
 
 double calculateInterest(double principal, double rate, double time) => principal * rate * time/100;
 
+// Calculate the interest based on the principal amount, rate, and time.
 void main() {
   double principal = 6000;
   double rate = 5;
